@@ -1,0 +1,16 @@
+PODS:
+  - TvOSTextViewer (0.0.1)
+
+DEPENDENCIES:
+  - TvOSTextViewer (from `..`)
+
+EXTERNAL SOURCES:
+  TvOSTextViewer:
+    :path: ..
+
+SPEC CHECKSUMS:
+  TvOSTextViewer: cb3a3dc20e92f283144e8f341d2e71ac1f8d3640
+
+PODFILE CHECKSUM: 1e3cfb7ed9110f3d5edde5c108dc6f8db5b3b59d
+
+COCOAPODS: 1.1.1
