@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FF37C6311E54934A0010E5F3 /* TvOSTextViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF37C62F1E54934A0010E5F3 /* TvOSTextViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF410D431E54997000C8C502 /* TextViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF410D421E54997000C8C502 /* TextViewerViewController.swift */; };
+		FFC6850A1E5597CB00C98818 /* FadedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC685081E5597CB00C98818 /* FadedTextView.swift */; };
+		FFC6850B1E5597CB00C98818 /* TextViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC685091E5597CB00C98818 /* TextViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF37C62C1E54934A0010E5F3 /* TvOSTextViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TvOSTextViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF37C62F1E54934A0010E5F3 /* TvOSTextViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TvOSTextViewer.h; sourceTree = "<group>"; };
 		FF37C6301E54934A0010E5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF410D421E54997000C8C502 /* TextViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewerViewController.swift; sourceTree = "<group>"; };
+		FFC685081E5597CB00C98818 /* FadedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadedTextView.swift; sourceTree = "<group>"; };
+		FFC685091E5597CB00C98818 /* TextViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,20 +50,21 @@
 		FF37C62E1E54934A0010E5F3 /* TvOSTextViewer */ = {
 			isa = PBXGroup;
 			children = (
-				FF410D411E54997000C8C502 /* Sources */,
+				FFC685071E5597CB00C98818 /* Sources */,
 				FF37C62F1E54934A0010E5F3 /* TvOSTextViewer.h */,
 				FF37C6301E54934A0010E5F3 /* Info.plist */,
 			);
 			path = TvOSTextViewer;
 			sourceTree = "<group>";
 		};
-		FF410D411E54997000C8C502 /* Sources */ = {
+		FFC685071E5597CB00C98818 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FF410D421E54997000C8C502 /* TextViewerViewController.swift */,
+				FFC685081E5597CB00C98818 /* FadedTextView.swift */,
+				FFC685091E5597CB00C98818 /* TextViewerViewController.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -143,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF410D431E54997000C8C502 /* TextViewerViewController.swift in Sources */,
+				FFC6850A1E5597CB00C98818 /* FadedTextView.swift in Sources */,
+				FFC6850B1E5597CB00C98818 /* TextViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
