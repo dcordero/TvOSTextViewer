@@ -6,7 +6,7 @@ Light and scrollable view controller for tvOS to present blocks of text
 
 ## Description
 
-TvOSTextViewer is a view controller to present blocks of text on the same way native Apps does on tvOS.
+TvOSTextViewer is a view controller to present blocks of text on the same way native Apps do it on tvOS.
 
 Customizable properties:
 
