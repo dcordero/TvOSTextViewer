@@ -6,7 +6,7 @@ Light and scrollable view controller for tvOS to present blocks of text
 
 ## Description
 
-TvOSTextViewer is a view controller that allows presenting block of texts on the same way native Apps does on tvOS.
+TvOSTextViewer is a view controller to present blocks of text on the same way native Apps does on tvOS.
 
 Customizable properties:
 
@@ -20,6 +20,22 @@ Customizable properties:
 
 - tvOS 9.0+
 - Xcode 8.2
+
+## Installation
+
+### Cocoapods
+
+To integrate TvOSTextViewer into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :tvos, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'TvOSTextViewer', '~> 0.0.1'
+end
+```
 
 ## Usage
 
