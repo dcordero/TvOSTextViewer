@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     @IBAction func showButtonWasPressed() {
         
-        let viewController = TextViewerViewController()
+        let viewController = TvOSTextViewerViewController()
         
         viewController.textColor = .white
         viewController.textEdgeInsets = UIEdgeInsets(top: 100, left: 350, bottom: 100, right: 350)
