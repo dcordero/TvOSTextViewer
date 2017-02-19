@@ -39,10 +39,10 @@ end
 
 ## Usage
 
-All you need is to create an instance of TextViewerViewController and present it on the screen:
+All you need is to create an instance of TvOSTextViewerViewController and present it on the screen:
 
 ```swift
-let viewController = TextViewerViewController()
+let viewController = TvOSTextViewerViewController()
 viewController.text = "Hello World"
 present(viewController, animated: true, completion: nil)
 ```
