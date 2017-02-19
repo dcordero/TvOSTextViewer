@@ -1,5 +1,5 @@
 //
-//  TextViewerViewController.swift
+//  TvOSTextViewerViewController.swift
 //  TvOSTextViewer
 //
 //  Created by David Cordero on 15.02.17.
@@ -13,7 +13,7 @@ private let defaultTextColor: UIColor = .white
 private let defaultFontSize: CGFloat = 41
 private let defaultBackgroundBlurEffectStyle: UIBlurEffectStyle = .dark
 
-public class TextViewerViewController: UIViewController {
+public class TvOSTextViewerViewController: UIViewController {
     
     public var text: String?
     public var textColor: UIColor?
