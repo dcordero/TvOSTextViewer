@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.authors = { 'David Cordero' => 'dcorderoramirez@gmail.com'}
   s.version = '0.0.1'
   s.license = 'MIT'
-  s.summary = 'Light and scrollable view controller for tvOS which allow presenting an scrollable block of text'
+  s.summary = 'Light and scrollable view controller for tvOS to present blocks of text'
   s.homepage = 'https://github.com/dcordero/TvOSTextViewer'
   s.source = { :git => 'https://github.com/dcordero/TvOSTextViewer.git', :tag => s.version }
   s.tvos.deployment_target = '9.0'
