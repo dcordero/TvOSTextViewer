@@ -47,3 +47,5 @@ viewController.text = "Hello World"
 present(viewController, animated: true, completion: nil)
 ```
 
+If you would like to show this fullscreen view comming from an awesome button cropping the text on the same way Apple does, you can use it in combination with [TvOSMoreButton](https://github.com/cgoldsby/TvOSMoreButton) by [cgoldsby](https://twitter.com/GoldsbyChris)
+
