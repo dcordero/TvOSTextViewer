@@ -1,5 +1,5 @@
 PODS:
-  - TvOSTextViewer (0.0.2)
+  - TvOSTextViewer (1.0.0)
 
 DEPENDENCIES:
   - TvOSTextViewer (from `..`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  TvOSTextViewer: aa0e2d3b67b792ce28efcc452be1d4f164115033
+  TvOSTextViewer: 0b8869684450d76bd23ff2a7333e4af61533de89
 
 PODFILE CHECKSUM: 1e3cfb7ed9110f3d5edde5c108dc6f8db5b3b59d
 
