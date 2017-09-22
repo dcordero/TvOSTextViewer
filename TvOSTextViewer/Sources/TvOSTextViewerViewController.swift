@@ -19,8 +19,8 @@ public class TvOSTextViewerViewController: UIViewController {
     public var text: String = ""
     public var textEdgeInsets: UIEdgeInsets = .zero
     public var backgroundBlurEffectSyle = UIBlurEffect(style: defaultBackgroundBlurEffectStyle)
-    public var textAttributes: [NSAttributedStringKey : Any] = [.foregroundColor : defaultTextColor,
-                                                                .font : defaultFont]
+    public var textAttributes: [NSAttributedStringKey: Any] = [.foregroundColor: defaultTextColor,
+                                                                .font: defaultFont]
     
     private var backgroundView: UIVisualEffectView!
     private var textView: FadedTextView!
