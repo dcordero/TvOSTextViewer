@@ -32,7 +32,7 @@ platform :tvos, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'TvOSTextViewer', '~> 1.0.0'
+    pod 'TvOSTextViewer', '~> 1.1.0'
 end
 ```
 
