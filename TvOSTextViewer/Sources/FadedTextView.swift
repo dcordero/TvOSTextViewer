@@ -9,6 +9,10 @@
 import UIKit
 
 
+private let containerInset: CGFloat = 40
+private let gradientOffsetTop: NSNumber = 0.05
+private let gradientOffsetBottom: NSNumber = 0.95
+
 class FadedTextView: UITextView {
     
     override func layoutSubviews() {
@@ -18,14 +22,17 @@ class FadedTextView: UITextView {
         maskLayer.frame = bounds
         
         let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = CGRect(x: bounds.origin.x, y:0, width: bounds.width, height: bounds.height)
+        gradientLayer.frame = CGRect(x: bounds.origin.x, y: 0, width: bounds.width, height: bounds.height)
         gradientLayer.colors = [UIColor.clear.cgColor,
                                 UIColor.white.cgColor,
                                 UIColor.white.cgColor,
                                 UIColor.clear.cgColor]
-        gradientLayer.locations = [0.0, 0.05, 0.90, 1.0]
+        
+        gradientLayer.locations = [0.0, gradientOffsetTop, gradientOffsetBottom, 1.0]
         
         maskLayer.addSublayer(gradientLayer)
         self.layer.mask = maskLayer
+        
+        textContainerInset = UIEdgeInsets(top: containerInset, left: 0, bottom: containerInset, right: 0)
     }
 }

@@ -11,10 +11,9 @@ TvOSTextViewer is a view controller to present blocks of text on the same way na
 Customizable properties:
 
 - text: The block of text to be presented
-- textColor: The color of the text
 - textEdgeInsets: Margins for the text
-- font: Custom fonts/sizes can be set here
 - backgroundBlurEffectStyle: .dark by default
+- textAttributes: Custom fonts/sizes, text colors, alignment, etc... via [NSAttributedText](https://developer.apple.com/documentation/uikit/uilabel/1620542-attributedtext)
 
 ## Requirements
 

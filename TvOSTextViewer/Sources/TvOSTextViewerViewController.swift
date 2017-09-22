@@ -11,15 +11,16 @@ import UIKit
 
 private let defaultTextColor: UIColor = .white
 private let defaultFontSize: CGFloat = 41
+private let defaultFont: UIFont = .systemFont(ofSize: defaultFontSize)
 private let defaultBackgroundBlurEffectStyle: UIBlurEffectStyle = .dark
 
 public class TvOSTextViewerViewController: UIViewController {
     
-    public var text: String?
-    public var textColor: UIColor?
+    public var text: String = ""
     public var textEdgeInsets: UIEdgeInsets = .zero
-    public var font: UIFont = .systemFont(ofSize: defaultFontSize)
     public var backgroundBlurEffectSyle = UIBlurEffect(style: defaultBackgroundBlurEffectStyle)
+    public var textAttributes: [NSAttributedStringKey : Any] = [.foregroundColor : defaultTextColor,
+                                                                .font : defaultFont]
     
     private var backgroundView: UIVisualEffectView!
     private var textView: FadedTextView!
@@ -60,9 +61,9 @@ public class TvOSTextViewerViewController: UIViewController {
         textView = FadedTextView()
         textView.panGestureRecognizer.allowedTouchTypes = [NSNumber(integerLiteral: UITouchType.indirect.rawValue)]
         textView.isUserInteractionEnabled = true
-        textView.textColor = textColor
-        textView.text = text
-        textView.font = font
+        
+        textView.attributedText = NSAttributedString(string: text,
+                                                     attributes: textAttributes)
         view.addSubview(textView)
     }
 
