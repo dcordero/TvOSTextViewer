@@ -16,11 +16,11 @@ private let defaultBackgroundBlurEffectStyle: UIBlurEffectStyle = .dark
 
 public class TvOSTextViewerViewController: UIViewController {
     
-    public var text: String = ""
-    public var textEdgeInsets: UIEdgeInsets = .zero
-    public var backgroundBlurEffectSyle = UIBlurEffect(style: defaultBackgroundBlurEffectStyle)
-    public var textAttributes: [NSAttributedStringKey: Any] = [.foregroundColor: defaultTextColor,
-                                                                .font: defaultFont]
+    @objc public var text: String = ""
+    @objc public var textEdgeInsets: UIEdgeInsets = .zero
+    @objc public var backgroundBlurEffectSyle = UIBlurEffect(style: defaultBackgroundBlurEffectStyle)
+    @objc public var textAttributes: [NSAttributedStringKey: Any] = [.foregroundColor: defaultTextColor,
+                                                                     .font: defaultFont]
     
     private var backgroundView: UIVisualEffectView!
     private var textView: FadedTextView!
