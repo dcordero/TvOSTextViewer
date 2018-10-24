@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'TvOSTextViewer'
   s.authors = { 'David Cordero' => 'dcorderoramirez@gmail.com'}
-  s.version = '1.1.1'
+  s.version = '1.2.0'
   s.license = 'MIT'
   s.summary = 'Light and scrollable view controller for tvOS to present blocks of text'
   s.homepage = 'https://github.com/dcordero/TvOSTextViewer'
