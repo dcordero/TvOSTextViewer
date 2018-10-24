@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.0] - 2018-10-24
+
+- Support Xcode 10
+- Migrate to Swift 4.2
+
 ## [1.1.1] - 2017-10-17
 
 - Add Carthague support
