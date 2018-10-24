@@ -1,4 +1,8 @@
 # TvOSTextViewer
+[![Twitter: @dcordero](https://img.shields.io/badge/contact-@dcordero-blue.svg?style=flat)](https://twitter.com/dcordero)
+![License MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
+[![Build Status](https://travis-ci.org/dcordero/TvOSTextViewer.svg?branch=master)](https://travis-ci.org/dcordero/TvOSTextViewer)
 
 Light and scrollable view controller for tvOS to present blocks of text
 
