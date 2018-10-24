@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TvOSTextViewer:
-    :path: ..
+    :path: ".."
 
 SPEC CHECKSUMS:
-  TvOSTextViewer: 1688f6b2342fa18f87ee10f1e5b08aa10e02e1a4
+  TvOSTextViewer: 58b596fb8d679b8ba579e7eaedecca8cab53ff56
 
 PODFILE CHECKSUM: 1e3cfb7ed9110f3d5edde5c108dc6f8db5b3b59d
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
