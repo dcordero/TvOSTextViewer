@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.0] - 2019-12-23
+
+- Support Xcode 11
+- Migrate to Swift 5.0
+
 ## [1.2.0] - 2018-10-24
 
 - Support Xcode 10
