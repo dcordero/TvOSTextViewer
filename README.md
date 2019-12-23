@@ -67,7 +67,7 @@ $ brew install carthage
 To integrate TvOSTextViewer into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "dcordero/TvOSTextViewer" ~> 1.2.0
+github "dcordero/TvOSTextViewer" ~> 1.3.0
 ```
 
 Run `carthage update` to build the framework and drag the built TvOSTextViewer.framework into your Xcode project.
