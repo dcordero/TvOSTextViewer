@@ -3,6 +3,7 @@
 //  TvOSTextViewer
 //
 //  Created by David Cordero on 15.02.17.
+//  Edited by Paoloandrea on 10.03.2022
 //  Copyright © 2017 David Cordero. All rights reserved.
 //
 
@@ -21,6 +22,8 @@ public class TvOSTextViewerViewController: UIViewController {
     @objc public var backgroundBlurEffectSyle = UIBlurEffect(style: defaultBackgroundBlurEffectStyle)
     @objc public var textAttributes: [NSAttributedString.Key: Any] = [.foregroundColor: defaultTextColor,
                                                                      .font: defaultFont]
+    
+    @objc public var attributes:NSAttributedString?
     
     private var backgroundView: UIVisualEffectView!
     private var textView: FadedTextView!
@@ -62,9 +65,13 @@ public class TvOSTextViewerViewController: UIViewController {
         textView.panGestureRecognizer.allowedTouchTypes = [NSNumber(integerLiteral: UITouch.TouchType.indirect.rawValue)]
         textView.isUserInteractionEnabled = true
         
-        textView.attributedText = NSAttributedString(string: text,
+        if attributes != nil {
+            textView.attributedText = attributes
+        } else {
+            textView.attributedText = NSAttributedString(string: text,
                                                      attributes: textAttributes)
-        view.addSubview(textView)
+        }
+            view.addSubview(textView)
     }
 
     private func moveTextViewToTheCenter() {
